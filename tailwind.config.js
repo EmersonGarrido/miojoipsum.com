@@ -7,9 +7,6 @@ module.exports = {
   ],
   plugins: [require('tailwindcss-animate'), require('@tailwindcss/forms')],
   theme: {
-    screens: {
-      mobile: '480px',
-    },
     extend: {
       fontFamily: {
         edu: ['Edu QLD Beginner', 'cursive'],

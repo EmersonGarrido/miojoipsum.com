@@ -34,15 +34,17 @@ const Home: NextPage = () => {
         <img src="/logo.png" />
 
         <h1 className="text-[#415160] text-2xl font-bold mb-5">Quantos parágrafos de miojo você precisa?</h1>
+
         <div className="flex flex-col md:flex-row justify-center items-center gap-3">
           <div className="md:w-[500px] w-full h-[500px] bg-white p-4">
             <h2 className="text-[#5274B4] text-4xl font-bold">Melhore seus trabalhos com a redaçāo nota 560 do Enem.</h2>
             <span className="text-[#5274B4] text-xl ">Agora você pode incrementar redações, trabalhos escolares e ate mesmo monografias com um texto aprovado pelo Ministério da Educação</span>
           </div>
-          <div className="md:w-[500px] w-full md:mt-5 h-[500px] text-lg bg-white p-4 text-[#5274B4]">
+          <div className="md:w-[500px] w-full mt-5 md:mt-0 h-[500px] text-lg bg-white p-4 text-[#5274B4]">
             {lorem}
           </div>
         </div>
+
       </main>
 
     </div>
