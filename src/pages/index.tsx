@@ -25,7 +25,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-[#8EC1D4] p-5">
       <Head>
-        <title>Miojo Ipsum - No ENEM desde 2013</title>
+        <title>Miojo Ipsum - O primeiro gerador de Lorem Ipsum aprovado pelo MEC</title>
         <meta name="description" content="O gerador de textos do enem - miojo ipsum" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
