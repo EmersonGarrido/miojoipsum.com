@@ -30,13 +30,13 @@ const Home: NextPage = () => {
         <meta name="description" content="O gerador de textos do enem - miojo ipsum" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-col gap-4 justify-center items-center mb-[200px] md:mt-[150px]">
+      <main className="flex flex-col gap-4 justify-center items-center md:mb-[200px] md:mt-[150px]">
         <img src="/logo.png" />
 
         <h1 className="text-[#415160] text-2xl font-bold mb-5">Quantos parágrafos de miojo você precisa?</h1>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-3">
-          <div className="md:w-[500px] w-full h-[500px] bg-white p-4">
+          <div className="md:w-[500px] w-full md:h-[500px] bg-white p-4">
             <h2 className="text-[#5274B4] text-4xl font-bold">Melhore seus trabalhos com a redaçāo nota 560 do Enem.</h2>
             <span className="text-[#5274B4] text-xl ">Agora você pode incrementar redações, trabalhos escolares e ate mesmo monografias com um texto aprovado pelo Ministério da Educação</span>
           </div>
@@ -44,6 +44,8 @@ const Home: NextPage = () => {
             {lorem}
           </div>
         </div>
+
+        <div>Outro projeto feito em 5 minutos por <a href="https://www.linkedin.com/in/emersongarrido/">Emerson Garrido</a></div>
 
       </main>
 
