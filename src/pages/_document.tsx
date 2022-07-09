@@ -5,7 +5,6 @@ import Document, {
   NextScript,
   DocumentContext,
 } from "next/document";
-import Script from "next/script";
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -25,18 +24,18 @@ class MyDocument extends Document {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309395025758950"
           ></script>
-          <script
+          {/* <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-87YD2F6GLF"
-          ></script>
-          <Script>
+            src="https://www.googletagmanager.com/gtag/js?id="
+          ></script> */}
+          {/* <Script>
             {` window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
               gtag('config', 'G-87YD2F6GLF');
             `}
-          </Script>
+          </Script> */}
         </Head>
         <body>
           <Main />
