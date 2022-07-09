@@ -5,7 +5,7 @@ import '../styles/globals.css';
 import TagManager from 'react-gtm-module';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const GTM_ID = 'G-87YD2F6GLF';
+  const GTM_ID = 'GTM-NW2VP6M';
 
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
