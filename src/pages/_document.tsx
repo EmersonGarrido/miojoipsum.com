@@ -24,18 +24,18 @@ class MyDocument extends Document {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309395025758950"
           ></script>
-          {/* <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id="
-          ></script> */}
-          {/* <Script>
-            {` window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-87YD2F6GLF');
-            `}
-          </Script> */}
+         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6176815543309144"
+     crossorigin="anonymous"></script>
+      <!-- miojoipsum-responsivo -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-6176815543309144"
+           data-ad-slot="9927376506"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
         </Head>
         <body>
           <Main />
